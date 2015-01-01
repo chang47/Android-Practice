@@ -4,6 +4,7 @@
 
     <uses-sdk android:minSdkVersion="11" />
 
+
 <!--
     <android:uses-permission
         android:name="android.permission.write_external_storage"
@@ -13,6 +14,7 @@
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
 -->
+
 
     <application
         android:allowBackup="true"
@@ -29,17 +31,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DisplayMessageActivity"
+            android:name="com.coralbue.helloworld.DisplayMessageActivity"
             android:label="@string/title_activity_display_message"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.coralbue.helloworld.MainActivity" />
-        </activity>
-        <activity
-            android:name=".ActivityAction"
-            android:label="@string/title_activity_activity_action"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="com.coralbue.helloworld.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.coralbue.helloworld.MainActivity" />
