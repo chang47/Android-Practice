@@ -8,4 +8,5 @@
     <string name="action_location_found">Location Found</string>
     <string name="action_help">Help</string>
     <string name="action_check_updates">Check Updates</string>
+    <string name="activity_new_message">New Message</string>
 </resources>
