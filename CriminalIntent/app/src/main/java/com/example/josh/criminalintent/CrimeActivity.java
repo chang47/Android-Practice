@@ -19,7 +19,7 @@ public class CrimeActivity extends FragmentActivity {
         android.support.v4.app.FragmentManager fm = getSupportFragmentManager();
         android.support.v4.app.Fragment fragment = fm.findFragmentById(R.id.fragmentContainer);
         if(fragment == null) {
-            fragment = new android.support.v4.app.Fragment();
+            fragment = new CrimeFragment();
             fm.beginTransaction()
                     .add(R.id.fragmentContainer, fragment)
                     .commit();
