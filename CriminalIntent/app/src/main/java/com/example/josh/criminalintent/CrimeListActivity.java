@@ -2,6 +2,7 @@ package com.example.josh.criminalintent;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.widget.ArrayAdapter;
 
 /**
  * Created by JoshDesktop on 1/12/2015.
