@@ -7,7 +7,7 @@ import android.view.MenuItem;
 
 import java.util.UUID;
 
-
+//Not used, look at CrimePagerActivity
 public class CrimeActivity extends SingleFragmentActivity {
 
     @Override
